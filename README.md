@@ -5,6 +5,7 @@
 - When teams aren't aware of their architecture (don't have the big picture), it tends to degrade.
 - The goad of software architecture is to minimaze the human resources required to build and maintain the required system.
 - The measure of design quality is the measure of effort required to meet the needs of the customer.
+- All non-trivial abstractions, to some degree, are leaky.
 - SOLID - applies to method/class/module/service level
     - Single responsibility principle - one should have only a single responsibility.
     - Open/closed principle - open for extension, but closed for modification.
