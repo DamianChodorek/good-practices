@@ -5,7 +5,6 @@
 - When teams aren't aware of their architecture (don't have the big picture), it tends to degrade.
 - The goad of software architecture is to minimaze the human resources required to build and maintain the required system.
 - The measure of design quality is the measure of effort required to meet the needs of the customer.
-- All non-trivial abstractions, to some degree, are leaky.
 - SOLID - applies to method/class/module/service level
     - Single responsibility principle - one should have only a single responsibility.
     - Open/closed principle - open for extension, but closed for modification.
@@ -122,3 +121,4 @@
 - You can determine whether or not a technology is “bad” by looking at its survival potential, interoperability, and attention to quality.
 - The difference between a bad programmer and a good programmer is understanding.
 - Its harder to build great team than a great project. Make your team  squad independent of projects.
+- All non-trivial abstractions, to some degree, are leaky. Abstractions save us time working, but they don’t save us time learning.
