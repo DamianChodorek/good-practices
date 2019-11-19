@@ -3,7 +3,7 @@
 ### Clean Architecture
 - Architecture reflects organisational communication model, reverse is true.
 - When teams aren't aware of their architecture (don't have the big picture), it tends to degrade.
-- The goad of software architecture is to minimaze the human resources required to build and maintain the required system.
+- The goal of software architecture is to minimaze the human resources required to build and maintain the required system.
 - The measure of design quality is the measure of effort required to meet the needs of the customer.
 - SOLID - applies to method/class/module/service level
     - Single responsibility principle - one should have only a single responsibility.
@@ -56,7 +56,7 @@
 
 ### Code readability
 - Write boring code.
-- Dad code comes from ignorance, not from evil. Don't ignore things.
+- Bad code comes from ignorance, not from evil. Don't ignore things.
 - Leave code in a better state than it had been before you got it.
 - Change one thing at a time.
 - Comments should explain why the code is doing something, not what it is doing.
