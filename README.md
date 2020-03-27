@@ -119,6 +119,7 @@
 - The quality level of your design should be proportional to the length of future time in which your system will continue to help people.
 - The longer your program exists, the more probable it is that any piece of it will have to change.
 - You can determine whether or not a technology is “bad” by looking at its survival potential, interoperability, and attention to quality.
+- Roles and responsibilities issue is often a relationship issue. What really is the source of the friction?
 - The difference between a bad programmer and a good programmer is understanding.
 - Its harder to build great team than a great project. Make your team  squad independent of projects.
 - All non-trivial abstractions, to some degree, are leaky. Abstractions save us time working, but they don’t save us time learning.
