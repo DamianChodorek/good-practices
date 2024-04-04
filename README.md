@@ -1,7 +1,6 @@
 [Toward Simplifying Application Development, in a Dozen Lessons](http://melconway.com/Home/pdf/simplify.pdf)
 
 ### Clean Architecture
-- Architecture reflects organisational communication model, reverse is true.
 - When teams aren't aware of their architecture (don't have the big picture), it tends to degrade.
 - The goal of software architecture is to minimaze the human resources required to build and maintain the required system.
 - The measure of design quality is the measure of effort required to meet the needs of the customer.
@@ -53,6 +52,15 @@
     - Be only as generic as you know you need to be right now.
     - Restrict the scope of data to the smallest possible
     - Complexity is a prison; simplicity is freedom.
+- Conway's law
+    - Architecture reflects organisational communication model, reverse is true.
+    - “inverse Conway maneuver,” which states that organizations should evolve their team and organizational structure to achieve the desired architecture
+    - Conway's law creates an imperative to keep asking: "Is there a better design that is not available to us because of our organization?"
+    - If the architecture of the system and the architecture of the organization are at odds, the architecture of the organization wins
+    - Conway’s law tells us that we need to understand what software architecture is needed before we organize our teams
+    - if we have managers deciding which services will be built, by which teams, we implicitly have managers deciding on the system architecture
+    - One key implication of Conway’s law is that not all communication and collaboration is good. Thus it is important to define “team interfaces” to set expectations around what kind of work requires strong collaboration and what doesn’t. Many organizations assume that more communication is always better, but this is not really the case.
+    - Fast flow requires restricting communication between teams. Team collaboration is important for gray areas of development, where discovery and expertise is needed to make progress. But in areas where execution prevails—not discovery—communication becomes an unnecessary overhead.
 
 ### Code readability
 - Write boring code.
@@ -123,3 +131,5 @@
 - The difference between a bad programmer and a good programmer is understanding.
 - Its harder to build great team than a great project. Make your team  squad independent of projects.
 - All non-trivial abstractions, to some degree, are leaky. Abstractions save us time working, but they don’t save us time learning.
+- It is increasingly clear that relying on a single, static organizational structure, like the org chart or matrix management, is untenable for effective outcomes with modern software systems.
+- Teams have a finite cognitive capacity that needs to be respected.
